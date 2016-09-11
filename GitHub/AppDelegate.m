@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "PKHomPageViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    PKHomPageViewController *homePageVC = [[PKHomPageViewController alloc] init];
+    
+    UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:homePageVC];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    self.window.rootViewController = navVC;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

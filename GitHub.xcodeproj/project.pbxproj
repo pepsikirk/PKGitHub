@@ -9,12 +9,28 @@
 /* Begin PBXBuildFile section */
 		AEEFD9721D7BC1DC0070A7F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEFD9711D7BC1DC0070A7F9 /* main.m */; };
 		AEEFD9751D7BC1DC0070A7F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEFD9741D7BC1DC0070A7F9 /* AppDelegate.m */; };
-		AEEFD9781D7BC1DC0070A7F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEFD9771D7BC1DC0070A7F9 /* ViewController.m */; };
-		AEEFD97B1D7BC1DC0070A7F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEFD9791D7BC1DC0070A7F9 /* Main.storyboard */; };
 		AEEFD97D1D7BC1DC0070A7F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEFD97C1D7BC1DC0070A7F9 /* Assets.xcassets */; };
 		AEEFD9801D7BC1DC0070A7F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEFD97E1D7BC1DC0070A7F9 /* LaunchScreen.storyboard */; };
 		AEEFD98B1D7BC1DC0070A7F9 /* GitHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEFD98A1D7BC1DC0070A7F9 /* GitHubTests.m */; };
 		AEEFD9961D7BC1DC0070A7F9 /* GitHubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEFD9951D7BC1DC0070A7F9 /* GitHubUITests.m */; };
+		AEEFD9AE1D7BCE7A0070A7F9 /* PKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEFD9AD1D7BCE7A0070A7F9 /* PKBaseViewController.m */; };
+		AEEFD9B11D7BCF210070A7F9 /* PKHomPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEFD9B01D7BCF210070A7F9 /* PKHomPageViewController.m */; };
+		AEEFD9B41D7BCFF10070A7F9 /* PKBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEFD9B31D7BCFF10070A7F9 /* PKBaseView.m */; };
+		AEEFD9B71D7BD0160070A7F9 /* PKBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEFD9B61D7BD0160070A7F9 /* PKBaseModel.m */; };
+		AEEFD9BD1D7BD0500070A7F9 /* PKBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEFD9BC1D7BD0500070A7F9 /* PKBaseViewModel.m */; };
+		AEEFD9C01D7BD0840070A7F9 /* PKHomePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEFD9BF1D7BD0840070A7F9 /* PKHomePageView.m */; };
+		AEEFD9C31D7BD0AE0070A7F9 /* PKHomePageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEFD9C21D7BD0AE0070A7F9 /* PKHomePageViewModel.m */; };
+		AEF9391E1D7C377F004DD84F /* PKBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF9391D1D7C377F004DD84F /* PKBaseTableViewCell.m */; };
+		AEF939221D7C381C004DD84F /* PKHomePageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF939201D7C381C004DD84F /* PKHomePageTableViewCell.m */; };
+		AEF939231D7C381C004DD84F /* PKHomePageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEF939211D7C381C004DD84F /* PKHomePageTableViewCell.xib */; };
+		AEF939281D7C3D3D004DD84F /* PKNetAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF939271D7C3D3D004DD84F /* PKNetAPIManager.m */; };
+		AEF9392B1D7C4756004DD84F /* PKUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF9392A1D7C4756004DD84F /* PKUserModel.m */; };
+		AEF9392F1D7C5352004DD84F /* NSObject+PKCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF9392E1D7C5352004DD84F /* NSObject+PKCommon.m */; };
+		AEF939351D7C6A14004DD84F /* PKUserDetailViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF939341D7C6A14004DD84F /* PKUserDetailViewModel.m */; };
+		AEF939381D7C6B5C004DD84F /* PKUsersDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF939371D7C6B5C004DD84F /* PKUsersDetailView.m */; };
+		AEF9393A1D7C6C44004DD84F /* PKUsersDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEF939391D7C6C44004DD84F /* PKUsersDetailView.xib */; };
+		AEF9393D1D7C79EB004DD84F /* PKUserDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF9393C1D7C79EB004DD84F /* PKUserDetailViewController.m */; };
+		C84DDBDEF14D381C6C3358DA /* libPods-GitHub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5B7D5040B02FB537196456 /* libPods-GitHub.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +51,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C5B7D5040B02FB537196456 /* libPods-GitHub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitHub.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1A7423F49314E680B2EFA0 /* Pods-GitHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHub/Pods-GitHub.debug.xcconfig"; sourceTree = "<group>"; };
 		AEEFD96D1D7BC1DC0070A7F9 /* GitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEEFD9711D7BC1DC0070A7F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEEFD9731D7BC1DC0070A7F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AEEFD9741D7BC1DC0070A7F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AEEFD9761D7BC1DC0070A7F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AEEFD9771D7BC1DC0070A7F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AEEFD97A1D7BC1DC0070A7F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEEFD97C1D7BC1DC0070A7F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEEFD97F1D7BC1DC0070A7F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEEFD9811D7BC1DC0070A7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +66,39 @@
 		AEEFD9911D7BC1DC0070A7F9 /* GitHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEEFD9951D7BC1DC0070A7F9 /* GitHubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHubUITests.m; sourceTree = "<group>"; };
 		AEEFD9971D7BC1DC0070A7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEEFD9AC1D7BCE7A0070A7F9 /* PKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKBaseViewController.h; path = Class/General/Base/PKBaseViewController.h; sourceTree = "<group>"; };
+		AEEFD9AD1D7BCE7A0070A7F9 /* PKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKBaseViewController.m; path = Class/General/Base/PKBaseViewController.m; sourceTree = "<group>"; };
+		AEEFD9AF1D7BCF210070A7F9 /* PKHomPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKHomPageViewController.h; path = Class/Sections/HomePageSection/ViewController/PKHomPageViewController.h; sourceTree = "<group>"; };
+		AEEFD9B01D7BCF210070A7F9 /* PKHomPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKHomPageViewController.m; path = Class/Sections/HomePageSection/ViewController/PKHomPageViewController.m; sourceTree = "<group>"; };
+		AEEFD9B21D7BCFF10070A7F9 /* PKBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKBaseView.h; path = Class/General/Base/PKBaseView.h; sourceTree = "<group>"; };
+		AEEFD9B31D7BCFF10070A7F9 /* PKBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKBaseView.m; path = Class/General/Base/PKBaseView.m; sourceTree = "<group>"; };
+		AEEFD9B51D7BD0160070A7F9 /* PKBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKBaseModel.h; path = Class/General/Base/PKBaseModel.h; sourceTree = "<group>"; };
+		AEEFD9B61D7BD0160070A7F9 /* PKBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKBaseModel.m; path = Class/General/Base/PKBaseModel.m; sourceTree = "<group>"; };
+		AEEFD9BB1D7BD0500070A7F9 /* PKBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKBaseViewModel.h; path = Class/General/Base/PKBaseViewModel.h; sourceTree = "<group>"; };
+		AEEFD9BC1D7BD0500070A7F9 /* PKBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKBaseViewModel.m; path = Class/General/Base/PKBaseViewModel.m; sourceTree = "<group>"; };
+		AEEFD9BE1D7BD0840070A7F9 /* PKHomePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKHomePageView.h; path = Class/Sections/HomePageSection/View/PKHomePageView.h; sourceTree = "<group>"; };
+		AEEFD9BF1D7BD0840070A7F9 /* PKHomePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKHomePageView.m; path = Class/Sections/HomePageSection/View/PKHomePageView.m; sourceTree = "<group>"; };
+		AEEFD9C11D7BD0AE0070A7F9 /* PKHomePageViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKHomePageViewModel.h; path = Class/Sections/HomePageSection/ViewModel/PKHomePageViewModel.h; sourceTree = "<group>"; };
+		AEEFD9C21D7BD0AE0070A7F9 /* PKHomePageViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKHomePageViewModel.m; path = Class/Sections/HomePageSection/ViewModel/PKHomePageViewModel.m; sourceTree = "<group>"; };
+		AEF9391C1D7C377F004DD84F /* PKBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKBaseTableViewCell.h; path = Class/General/Base/PKBaseTableViewCell.h; sourceTree = "<group>"; };
+		AEF9391D1D7C377F004DD84F /* PKBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKBaseTableViewCell.m; path = Class/General/Base/PKBaseTableViewCell.m; sourceTree = "<group>"; };
+		AEF9391F1D7C381C004DD84F /* PKHomePageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKHomePageTableViewCell.h; path = Class/Sections/HomePageSection/View/PKHomePageTableViewCell.h; sourceTree = "<group>"; };
+		AEF939201D7C381C004DD84F /* PKHomePageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKHomePageTableViewCell.m; path = Class/Sections/HomePageSection/View/PKHomePageTableViewCell.m; sourceTree = "<group>"; };
+		AEF939211D7C381C004DD84F /* PKHomePageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PKHomePageTableViewCell.xib; path = Class/Sections/HomePageSection/View/PKHomePageTableViewCell.xib; sourceTree = "<group>"; };
+		AEF939261D7C3D3D004DD84F /* PKNetAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKNetAPIManager.h; path = Class/General/Util/Manager/PKNetAPIManager.h; sourceTree = "<group>"; };
+		AEF939271D7C3D3D004DD84F /* PKNetAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKNetAPIManager.m; path = Class/General/Util/Manager/PKNetAPIManager.m; sourceTree = "<group>"; };
+		AEF939291D7C4756004DD84F /* PKUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKUserModel.h; path = Class/Sections/HomePageSection/Model/PKUserModel.h; sourceTree = "<group>"; };
+		AEF9392A1D7C4756004DD84F /* PKUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKUserModel.m; path = Class/Sections/HomePageSection/Model/PKUserModel.m; sourceTree = "<group>"; };
+		AEF9392D1D7C5352004DD84F /* NSObject+PKCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+PKCommon.h"; path = "Class/General/Category/NSObject+PKCommon.h"; sourceTree = "<group>"; };
+		AEF9392E1D7C5352004DD84F /* NSObject+PKCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PKCommon.m"; path = "Class/General/Category/NSObject+PKCommon.m"; sourceTree = "<group>"; };
+		AEF939331D7C6A14004DD84F /* PKUserDetailViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKUserDetailViewModel.h; path = Class/Sections/HomePageSection/ViewModel/PKUserDetailViewModel.h; sourceTree = "<group>"; };
+		AEF939341D7C6A14004DD84F /* PKUserDetailViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKUserDetailViewModel.m; path = Class/Sections/HomePageSection/ViewModel/PKUserDetailViewModel.m; sourceTree = "<group>"; };
+		AEF939361D7C6B5C004DD84F /* PKUsersDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKUsersDetailView.h; path = Class/Sections/HomePageSection/View/PKUsersDetailView.h; sourceTree = "<group>"; };
+		AEF939371D7C6B5C004DD84F /* PKUsersDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKUsersDetailView.m; path = Class/Sections/HomePageSection/View/PKUsersDetailView.m; sourceTree = "<group>"; };
+		AEF939391D7C6C44004DD84F /* PKUsersDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PKUsersDetailView.xib; path = Class/Sections/HomePageSection/View/PKUsersDetailView.xib; sourceTree = "<group>"; };
+		AEF9393B1D7C79EB004DD84F /* PKUserDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKUserDetailViewController.h; path = Class/Sections/HomePageSection/ViewController/PKUserDetailViewController.h; sourceTree = "<group>"; };
+		AEF9393C1D7C79EB004DD84F /* PKUserDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKUserDetailViewController.m; path = Class/Sections/HomePageSection/ViewController/PKUserDetailViewController.m; sourceTree = "<group>"; };
+		DE6F861ADBF68FF3E2003F5A /* Pods-GitHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHub/Pods-GitHub.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C84DDBDEF14D381C6C3358DA /* libPods-GitHub.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +127,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01C2CBAEA90421C5E5F1BBD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C5B7D5040B02FB537196456 /* libPods-GitHub.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BF30937AE5619326B90076B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F1A7423F49314E680B2EFA0 /* Pods-GitHub.debug.xcconfig */,
+				DE6F861ADBF68FF3E2003F5A /* Pods-GitHub.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AEEFD9641D7BC1DC0070A7F9 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +151,8 @@
 				AEEFD9891D7BC1DC0070A7F9 /* GitHubTests */,
 				AEEFD9941D7BC1DC0070A7F9 /* GitHubUITests */,
 				AEEFD96E1D7BC1DC0070A7F9 /* Products */,
+				6BF30937AE5619326B90076B /* Pods */,
+				01C2CBAEA90421C5E5F1BBD4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +169,9 @@
 		AEEFD96F1D7BC1DC0070A7F9 /* GitHub */ = {
 			isa = PBXGroup;
 			children = (
+				AEEFD9A31D7BCCE20070A7F9 /* Class */,
 				AEEFD9731D7BC1DC0070A7F9 /* AppDelegate.h */,
 				AEEFD9741D7BC1DC0070A7F9 /* AppDelegate.m */,
-				AEEFD9761D7BC1DC0070A7F9 /* ViewController.h */,
-				AEEFD9771D7BC1DC0070A7F9 /* ViewController.m */,
-				AEEFD9791D7BC1DC0070A7F9 /* Main.storyboard */,
 				AEEFD97C1D7BC1DC0070A7F9 /* Assets.xcassets */,
 				AEEFD97E1D7BC1DC0070A7F9 /* LaunchScreen.storyboard */,
 				AEEFD9811D7BC1DC0070A7F9 /* Info.plist */,
@@ -140,6 +206,133 @@
 			path = GitHubUITests;
 			sourceTree = "<group>";
 		};
+		AEEFD9A31D7BCCE20070A7F9 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				AEEFD9AA1D7BCE200070A7F9 /* General */,
+				AEEFD9A41D7BCD2D0070A7F9 /* Sections */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		AEEFD9A41D7BCD2D0070A7F9 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				AEEFD9A51D7BCD990070A7F9 /* HomePageSection */,
+			);
+			name = Sections;
+			sourceTree = "<group>";
+		};
+		AEEFD9A51D7BCD990070A7F9 /* HomePageSection */ = {
+			isa = PBXGroup;
+			children = (
+				AEEFD9A91D7BCDE60070A7F9 /* ViewModel */,
+				AEEFD9A81D7BCDC80070A7F9 /* ViewController */,
+				AEEFD9A71D7BCDC40070A7F9 /* View */,
+				AEEFD9A61D7BCDBB0070A7F9 /* Model */,
+			);
+			name = HomePageSection;
+			sourceTree = "<group>";
+		};
+		AEEFD9A61D7BCDBB0070A7F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEF939291D7C4756004DD84F /* PKUserModel.h */,
+				AEF9392A1D7C4756004DD84F /* PKUserModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AEEFD9A71D7BCDC40070A7F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AEEFD9BE1D7BD0840070A7F9 /* PKHomePageView.h */,
+				AEEFD9BF1D7BD0840070A7F9 /* PKHomePageView.m */,
+				AEF9391F1D7C381C004DD84F /* PKHomePageTableViewCell.h */,
+				AEF939201D7C381C004DD84F /* PKHomePageTableViewCell.m */,
+				AEF939211D7C381C004DD84F /* PKHomePageTableViewCell.xib */,
+				AEF939361D7C6B5C004DD84F /* PKUsersDetailView.h */,
+				AEF939371D7C6B5C004DD84F /* PKUsersDetailView.m */,
+				AEF939391D7C6C44004DD84F /* PKUsersDetailView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AEEFD9A81D7BCDC80070A7F9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AEEFD9AF1D7BCF210070A7F9 /* PKHomPageViewController.h */,
+				AEEFD9B01D7BCF210070A7F9 /* PKHomPageViewController.m */,
+				AEF9393B1D7C79EB004DD84F /* PKUserDetailViewController.h */,
+				AEF9393C1D7C79EB004DD84F /* PKUserDetailViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		AEEFD9A91D7BCDE60070A7F9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AEEFD9C11D7BD0AE0070A7F9 /* PKHomePageViewModel.h */,
+				AEEFD9C21D7BD0AE0070A7F9 /* PKHomePageViewModel.m */,
+				AEF939331D7C6A14004DD84F /* PKUserDetailViewModel.h */,
+				AEF939341D7C6A14004DD84F /* PKUserDetailViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		AEEFD9AA1D7BCE200070A7F9 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				AEF939241D7C3CDF004DD84F /* Util */,
+				AEEFD9AB1D7BCE270070A7F9 /* Base */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		AEEFD9AB1D7BCE270070A7F9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AEEFD9AC1D7BCE7A0070A7F9 /* PKBaseViewController.h */,
+				AEEFD9AD1D7BCE7A0070A7F9 /* PKBaseViewController.m */,
+				AEEFD9B21D7BCFF10070A7F9 /* PKBaseView.h */,
+				AEEFD9B31D7BCFF10070A7F9 /* PKBaseView.m */,
+				AEEFD9B51D7BD0160070A7F9 /* PKBaseModel.h */,
+				AEEFD9B61D7BD0160070A7F9 /* PKBaseModel.m */,
+				AEEFD9BB1D7BD0500070A7F9 /* PKBaseViewModel.h */,
+				AEEFD9BC1D7BD0500070A7F9 /* PKBaseViewModel.m */,
+				AEF9391C1D7C377F004DD84F /* PKBaseTableViewCell.h */,
+				AEF9391D1D7C377F004DD84F /* PKBaseTableViewCell.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		AEF939241D7C3CDF004DD84F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				AEF9392C1D7C5322004DD84F /* Category */,
+				AEF939251D7C3CF5004DD84F /* Manager */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		AEF939251D7C3CF5004DD84F /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				AEF939261D7C3D3D004DD84F /* PKNetAPIManager.h */,
+				AEF939271D7C3D3D004DD84F /* PKNetAPIManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		AEF9392C1D7C5322004DD84F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AEF9392D1D7C5352004DD84F /* NSObject+PKCommon.h */,
+				AEF9392E1D7C5352004DD84F /* NSObject+PKCommon.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +340,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEEFD99A1D7BC1DC0070A7F9 /* Build configuration list for PBXNativeTarget "GitHub" */;
 			buildPhases = (
+				946C1E028D7FEECFE62AB8AF /* [CP] Check Pods Manifest.lock */,
 				AEEFD9691D7BC1DC0070A7F9 /* Sources */,
 				AEEFD96A1D7BC1DC0070A7F9 /* Frameworks */,
 				AEEFD96B1D7BC1DC0070A7F9 /* Resources */,
+				DDE74109EB44A928BFF5FCF2 /* [CP] Embed Pods Frameworks */,
+				4E43C44530D644E4ADA6CA90 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,8 +440,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEEFD9801D7BC1DC0070A7F9 /* LaunchScreen.storyboard in Resources */,
+				AEF9393A1D7C6C44004DD84F /* PKUsersDetailView.xib in Resources */,
+				AEF939231D7C381C004DD84F /* PKHomePageTableViewCell.xib in Resources */,
 				AEEFD97D1D7BC1DC0070A7F9 /* Assets.xcassets in Resources */,
-				AEEFD97B1D7BC1DC0070A7F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +462,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E43C44530D644E4ADA6CA90 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitHub/Pods-GitHub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		946C1E028D7FEECFE62AB8AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDE74109EB44A928BFF5FCF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitHub/Pods-GitHub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AEEFD9691D7BC1DC0070A7F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEEFD9781D7BC1DC0070A7F9 /* ViewController.m in Sources */,
 				AEEFD9751D7BC1DC0070A7F9 /* AppDelegate.m in Sources */,
+				AEEFD9AE1D7BCE7A0070A7F9 /* PKBaseViewController.m in Sources */,
+				AEEFD9B41D7BCFF10070A7F9 /* PKBaseView.m in Sources */,
+				AEF939381D7C6B5C004DD84F /* PKUsersDetailView.m in Sources */,
+				AEF939281D7C3D3D004DD84F /* PKNetAPIManager.m in Sources */,
+				AEEFD9B71D7BD0160070A7F9 /* PKBaseModel.m in Sources */,
+				AEF9392F1D7C5352004DD84F /* NSObject+PKCommon.m in Sources */,
+				AEF9392B1D7C4756004DD84F /* PKUserModel.m in Sources */,
+				AEF9393D1D7C79EB004DD84F /* PKUserDetailViewController.m in Sources */,
 				AEEFD9721D7BC1DC0070A7F9 /* main.m in Sources */,
+				AEF939221D7C381C004DD84F /* PKHomePageTableViewCell.m in Sources */,
+				AEEFD9B11D7BCF210070A7F9 /* PKHomPageViewController.m in Sources */,
+				AEF939351D7C6A14004DD84F /* PKUserDetailViewModel.m in Sources */,
+				AEEFD9C31D7BD0AE0070A7F9 /* PKHomePageViewModel.m in Sources */,
+				AEEFD9BD1D7BD0500070A7F9 /* PKBaseViewModel.m in Sources */,
+				AEEFD9C01D7BD0840070A7F9 /* PKHomePageView.m in Sources */,
+				AEF9391E1D7C377F004DD84F /* PKBaseTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +567,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AEEFD9791D7BC1DC0070A7F9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AEEFD97A1D7BC1DC0070A7F9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AEEFD97E1D7BC1DC0070A7F9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -411,6 +662,7 @@
 		};
 		AEEFD99B1D7BC1DC0070A7F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F1A7423F49314E680B2EFA0 /* Pods-GitHub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GitHub/Info.plist;
@@ -422,6 +674,7 @@
 		};
 		AEEFD99C1D7BC1DC0070A7F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE6F861ADBF68FF3E2003F5A /* Pods-GitHub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GitHub/Info.plist;
@@ -496,6 +749,7 @@
 				AEEFD99C1D7BC1DC0070A7F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEEFD99D1D7BC1DC0070A7F9 /* Build configuration list for PBXNativeTarget "GitHubTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +758,7 @@
 				AEEFD99F1D7BC1DC0070A7F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEEFD9A01D7BC1DC0070A7F9 /* Build configuration list for PBXNativeTarget "GitHubUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +767,7 @@
 				AEEFD9A21D7BC1DC0070A7F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

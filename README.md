@@ -1,20 +1,21 @@
 # PKGitHub
-简单的 GitHub iOS 客户端，使用了 MVVM 模式。
-# 说明
-这个项目是之前找工作时一个公司要求的 demo 项目，还是费了点心思，就开源上传了
-# 要求
+A simple GitHub iOS client built using the MVVM architecture.
 
-##界面
+# Overview
+This project was a demo requirement for a job application I took previously. Since I put quite a bit of effort into it, I decided to open-source and upload it.
 
-1. 主页，展示所有 GitHub 上的所有 iOS 开发者， 只显示头像和名字，点击头像，页面切换到那个用户的信息页面。
-2. 用户信息页面，显示用户详情，名字，公司，公共仓库数，被关注和关注数。
+# Requirements
 
-##需求
+## Interfaces
 
-1. 用 Alamofire / AFNetworking 或者其他 HTTP 库请求 GitHub 公开的 API，通过 Search / Users. https://developer.github.com/
+1. **Home Page:** Displays all iOS developers on GitHub, showing only their avatars and usernames. Tapping an avatar navigates to that user's profile page.
+2. **User Profile Page:** Displays detailed user information, including name, company, number of public repositories, followers count, and following count.
 
-##加分项
+## Functional Requirements
 
-1. 在主页列表页使用分页。
-2. 最好使用 MVVM 作为架构。
+1. Use **Alamofire**, **AFNetworking**, or another HTTP networking library to request GitHub's public API via `Search / Users` (https://developer.github.com/).
 
+## Bonus Points
+
+1. Implement pagination on the Home Page list view.
+2. Preferably use **MVVM** as the application architecture.
